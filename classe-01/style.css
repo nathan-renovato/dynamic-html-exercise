@@ -1,0 +1,42 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    min-height: 100vh;
+    padding: 20px;
+}
+
+input {
+    margin-bottom: 30px;
+}
+
+.country {
+    align-items: center;
+    display: flex;
+    gap: 20px;
+    height: 250px;
+    justify-content: center;
+}
+
+.country-information {
+    align-items: flex-start;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    min-height: 100%;
+}
+
+.country img {
+    max-width: 300px;
+}
+
+.none {
+    display: none;
+}
